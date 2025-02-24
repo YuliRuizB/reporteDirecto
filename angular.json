@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reporteDirecto:build:production"
+              "buildTarget": "reporteDirecto:build:production"
             },
             "development": {
-              "browserTarget": "reporteDirecto:build:development"
+              "buildTarget": "reporteDirecto:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reporteDirecto:build"
+            "buildTarget": "reporteDirecto:build"
           }
         },
         "test": {
